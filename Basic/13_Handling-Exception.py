@@ -19,7 +19,7 @@ print(divide_numbers(10,"a"))
 try:
     a = int(input("Enter a positive integer: "))
     if a<0 :
-        raise ValueError("Negative value entered.")
+        raise ValueError("Negative value entered.") # When this statement is execute program direct go to except and print that error.
     else:
         print(f"You entered: {a}")
 except ValueError as ve:
