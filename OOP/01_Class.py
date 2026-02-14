@@ -3,7 +3,7 @@
 
 class Student:
     # Constructor to initialize the attributes
-    def __init__(self, name, age, grade): #self define the instance means the object itself
+    def __init__(self, name, age, grade): 
         self.name = name
         self.age = age
         self.grade = grade
