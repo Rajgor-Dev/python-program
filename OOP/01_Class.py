@@ -9,6 +9,7 @@ class Student:
         self.grade = grade
     def get_info(self):
         return f"Name: {self.name}, Age: {self.age}, Grade: {self.grade}"
+
 # Creating an object of the Student class
 name = input("Enter student's name: ")
 age = int(input("Enter student's age: "))
