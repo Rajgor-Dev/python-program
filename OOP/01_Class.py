@@ -3,11 +3,11 @@
 
 class Student:
     # Constructor to initialize the attributes
-    def __init__(self, name, age, grade): 
+    def __init__(self, name, age, grade): # Class Constructor
         self.name = name
         self.age = age
         self.grade = grade
-    def get_info(self):
+    def get_info(self): #Member Function
         return f"Name: {self.name}, Age: {self.age}, Grade: {self.grade}"
 
 # Creating an object of the Student class
