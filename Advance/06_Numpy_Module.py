@@ -87,6 +87,10 @@ numbers = np.arange(1, 13)
 
 reshaped = numbers.reshape(3, 4)
 
+flat = matrix.ravel()
+
+print("Flated Array :",flat)
+
 print("Original Array:", numbers)
 print("Reshaped Array:\n", reshaped)
 
